@@ -1,0 +1,34 @@
+{
+  "kind": "NORMAL_PRESENTATION_CAPTURES_AND_DIRECT_LOCAL_FILE_ENTRY_CHECK",
+  "started_at": "2026-11-15T14:11:17.152Z",
+  "html_sha256": "410611c7ac258bc1e473aec77eb58d3c5b3828510c62b14a368060b7f4cc6a5a",
+  "screens": [
+    {
+      "file": "desktop-review.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sha256": "4ddec6d518c286e109dde1aab30fb5d6b8aac9b5b7e6ec70a813a8aa34a0ca18",
+      "bytes": 137120
+    },
+    {
+      "file": "mobile-history.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "dfffd5aa2f6abb2f111c3bfc6270bcb10566d989260c135f91f7e72b5f42c721",
+      "bytes": 51672
+    }
+  ],
+  "blocked": [],
+  "provider_calls": 0,
+  "private_reads": false,
+  "file_open_monitor_tab": true,
+  "file_download_exact_curated_bytes": true,
+  "file_script_errors": 0,
+  "passed": true,
+  "all_contexts_browser_and_server_closed": true,
+  "finished_at": "2026-11-15T14:11:19.628Z"
+}

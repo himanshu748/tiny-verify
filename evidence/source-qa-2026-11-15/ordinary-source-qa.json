@@ -1,0 +1,269 @@
+{
+  "kind": "INDEPENDENT_ORDINARY_SIGNED_OUT_CHROME_CORPORATE_SOURCE_QA_NOT_TINYFISH_TRANSPORT_EVIDENCE",
+  "approval_reference": "call_e5c8",
+  "started_at": "2026-11-15T13:52:46.225Z",
+  "expected_public_record_sha256": "a88a4883a8bfe8eeeb9a55175035b4f724aea132b3c550627eee42d4c0f94002",
+  "provider_observation_checked_at": "2026-11-15T13:43:39.646Z",
+  "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=B1B7828012AA269780F1999CA2AC6DF5",
+  "complaint_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/ViewComplaint",
+  "checks": [
+    {
+      "name": "detail_licence_number_matches",
+      "passed": true
+    },
+    {
+      "name": "detail_legal_name_matches",
+      "passed": true
+    },
+    {
+      "name": "detail_dba_name_matches",
+      "passed": true
+    },
+    {
+      "name": "detail_licence_type_matches",
+      "passed": true
+    },
+    {
+      "name": "detail_native_status_matches",
+      "passed": true
+    },
+    {
+      "name": "detail_expiry_literal_matches",
+      "passed": true
+    },
+    {
+      "name": "detail_source_url_matches",
+      "passed": true
+    },
+    {
+      "name": "all_seven_visible_published_rows",
+      "passed": true
+    },
+    {
+      "name": "case_numbers_unique",
+      "passed": true
+    },
+    {
+      "name": "published_case_9881131_literal_fields_match",
+      "passed": true
+    },
+    {
+      "name": "published_case_9683858_literal_fields_match",
+      "passed": true
+    },
+    {
+      "name": "published_case_9483796_literal_fields_match",
+      "passed": true
+    },
+    {
+      "name": "published_case_9383725_literal_fields_match",
+      "passed": true
+    },
+    {
+      "name": "published_case_9283754_literal_fields_match",
+      "passed": true
+    },
+    {
+      "name": "published_case_9281898_literal_fields_match",
+      "passed": true
+    },
+    {
+      "name": "published_case_9180937_literal_fields_match",
+      "passed": true
+    },
+    {
+      "name": "exact_four_explicit_fine_sanction_rows",
+      "passed": true
+    },
+    {
+      "name": "placeholder_incident_dates_not_real_events",
+      "passed": true
+    },
+    {
+      "name": "one_native_public_read_form_post",
+      "passed": true
+    },
+    {
+      "name": "only_expected_public_documents",
+      "passed": true
+    }
+  ],
+  "documents": [
+    {
+      "method": "GET",
+      "path": "/portalsearches/VerifyLicensee/LicenseDetail",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/portalsearches/VerifyLicensee/ViewComplaint",
+      "status": 200
+    }
+  ],
+  "blocked": [
+    {
+      "method": "GET",
+      "resource_type": "script",
+      "first_party": false,
+      "path": "EXTERNAL"
+    },
+    {
+      "method": "GET",
+      "resource_type": "script",
+      "first_party": false,
+      "path": "EXTERNAL"
+    }
+  ],
+  "provider_calls": 0,
+  "spending": 0,
+  "credentials_or_private_files_read": false,
+  "saved_profile_used": false,
+  "addresses_people_or_contacts_extracted": false,
+  "full_html_screenshots_headers_cookies_or_trace_retained": false,
+  "complaint_filed": false,
+  "case_details_or_pagination_visited": false,
+  "browser_version": "157.0.8103.52",
+  "detail": {
+    "licence_number": "CQ247822",
+    "legal_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+    "dba_name": "COLDWELL BANKER REALTY",
+    "licence_type": "Real Estate Corporation",
+    "native_status": "Current,Active",
+    "expiry_literal": "03/31/2028",
+    "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=B1B7828012AA269780F1999CA2AC6DF5",
+    "checked_at": "2026-11-15T13:52:54.093Z"
+  },
+  "native_form": {
+    "method": "POST",
+    "action": "/portalsearches/VerifyLicensee/ViewComplaint",
+    "control_label": "View License Complaint",
+    "hidden_values_read": false,
+    "form_data_retained": false
+  },
+  "complaint_listing": {
+    "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/ViewComplaint",
+    "response_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+    "coverage_notice": "Below is a listing of public complaints regarding the person or entity selected. This may not reflect all public complaints filed with the Department; for example, all complaints against Community Association Managers (CAMs) are available to the public, regardless of whether any appear below, and may be requested directly from the Department. The Department is also precluded from disclosing any complaints which are confidential pursuant to Florida Statutes.",
+    "coverage": "published_public_listing_non_exhaustive",
+    "checked_at": "2026-11-15T13:52:58.605Z",
+    "headers": [
+      "Number",
+      "Class",
+      "Incident Date",
+      "Status",
+      "Disposition",
+      "Disposition Date",
+      "Discipline Date Description"
+    ],
+    "rows": [
+      {
+        "case_number": "9881131",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/13/1998",
+        "discipline_description": "08/13/1998 - Sanctions"
+      },
+      {
+        "case_number": "9683858",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "01/13/1998",
+        "discipline_description": "01/13/1998 - Fine"
+      },
+      {
+        "case_number": "9483796",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "06/11/1995",
+        "discipline_description": "06/11/1995 - Fine"
+      },
+      {
+        "case_number": "9383725",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/16/1993",
+        "discipline_description": ""
+      },
+      {
+        "case_number": "9283754",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "02/05/1993",
+        "discipline_description": ""
+      },
+      {
+        "case_number": "9281898",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "09/15/1992",
+        "discipline_description": ""
+      },
+      {
+        "case_number": "9180937",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/23/1991",
+        "discipline_description": "08/23/1991 - Fine"
+      }
+    ]
+  },
+  "explicit_actions": [
+    {
+      "case_number": "9881131",
+      "description": "08/13/1998 - Sanctions",
+      "action": "sanctions",
+      "action_date": "1998-08-13"
+    },
+    {
+      "case_number": "9683858",
+      "description": "01/13/1998 - Fine",
+      "action": "fine",
+      "action_date": "1998-01-13"
+    },
+    {
+      "case_number": "9483796",
+      "description": "06/11/1995 - Fine",
+      "action": "fine",
+      "action_date": "1995-06-11"
+    },
+    {
+      "case_number": "9180937",
+      "description": "08/23/1991 - Fine",
+      "action": "fine",
+      "action_date": "1991-08-23"
+    }
+  ],
+  "interpretation": {
+    "ordinary_browser_corroboration_only": true,
+    "new_tinyfish_transport_origin": false,
+    "current_native_status_preserved": "Current,Active",
+    "listing_non_exhaustive": true,
+    "confidential_complaints_not_disclosed_by_source": true,
+    "historical_closed_final_order_not_automatically_discipline": true,
+    "empty_discipline_cells_remain_unknown": true,
+    "incident_1901_is_placeholder_unknown": true,
+    "no_clean_history_or_regulatory_clearance_claim": true,
+    "no_fine_amount_or_present_legal_status_inferred": true
+  },
+  "all_contexts_closed": true,
+  "browser_closed": true,
+  "finished_at": "2026-11-15T13:52:58.740Z",
+  "passed": true,
+  "checks_total": 20,
+  "checks_passed": 20,
+  "selected_public_observation_sha256": "25745eccb7310feb01cb7ab719fbe3b24b54405ebd994f259880d7ca0261ca68"
+}

@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-11-15T14:12:57.719806+00:00",
+  "kind": "POLISHED_SELF_CONTAINED_SAVED_REVIEW_NOT_LIVE_WEBAPP_OR_SUBMISSION",
+  "passed": true,
+  "review_html_sha256": "410611c7ac258bc1e473aec77eb58d3c5b3828510c62b14a368060b7f4cc6a5a",
+  "review_html_bytes": 63214,
+  "curated_input_sha256": "3a8fe711df3b18112e4cca4a1e0c187d115c10a231b40eb944ee19819ea7d6be",
+  "browser_checks": 60,
+  "browser_pass": 60,
+  "desktop_viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "mobile_viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "direct_file_open_and_exact_json_download_passed": true,
+  "json_download_bytes": 10144,
+  "csv_rows": 7,
+  "csv_download_bytes": 3791,
+  "csv_download_sha256": "220619c4a4245c194971cc40d1c2fc4d86431ed34e21dfbc893934c5f82f01c1",
+  "tiny129_source_tree_sha256": "7fcec0bcdbb0fc3a3bffbd37821fc432b83544386cd878f377074a44b794adc9",
+  "tiny129_source_files_verified_unchanged": 47,
+  "property_source_tree_sha256": "1e0bfdf50450d23feb215b2573cca3bdcf468987b12d3b43746c10a0471ad225",
+  "property_source_files_verified_unchanged": 66,
+  "runtime_or_backend_changes": false,
+  "provider_calls": 0,
+  "external_request_attempts": 0,
+  "private_key_grant_or_profile_reads": false,
+  "all_browsers_contexts_and_temporary_servers_closed": true,
+  "public_outreach_publication_or_submission": false
+}

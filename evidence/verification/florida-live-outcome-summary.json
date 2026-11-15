@@ -1,0 +1,40 @@
+{
+  "kind": "SANITIZED_SELECTED_FIELDS_OF_COMPLETED_FLORIDA_PROVIDER_JOURNEY_NOT_ORIGINAL_RECEIPT",
+  "original_receipt_sha256": "f3c4160b3b845a1a96f1a49a4f5ab01c3c2ddea331a617c6f8952681020fea01",
+  "recorded_at": "2026-11-15T13:58:46.441072+00:00",
+  "source_runtime_sha256": "7fcec0bcdbb0fc3a3bffbd37821fc432b83544386cd878f377074a44b794adc9",
+  "successful_operations": {
+    "discovery_agent": 1,
+    "detail_fetch": 1,
+    "complaint_agent": 1,
+    "monitor_check": 2
+  },
+  "reported_agent_steps": {
+    "discovery": 18,
+    "complaint": 6
+  },
+  "selected_candidate_count": 1,
+  "licence_number": "CQ247822",
+  "native_status": "Current,Active",
+  "expiry_date": "2028-03-31",
+  "published_complaint_rows": 7,
+  "explicit_historical_actions": 4,
+  "history_non_exhaustive": true,
+  "placeholder_incident_dates_not_invented": true,
+  "complaint_origin": "Agent-reported selected text; separately corroborated in ordinary signed-out Chrome",
+  "ordinary_source_qa_passed": 20,
+  "ordinary_source_qa_total": 20,
+  "monitor_paused_confirmed": true,
+  "monitor_client_diff": "unchanged",
+  "monitor_comparison_origin": "client_structured_comparison",
+  "provider_outcome_baseline": "unknown",
+  "provider_outcome_followup": "unknown",
+  "complaint_history_not_rechecked_by_monitor": true,
+  "no_delivered_alert_or_natural_change_claim": true,
+  "all_new_entries_terminal": true,
+  "active_or_uncertain": 0,
+  "further_paid_authority": false,
+  "omitted": "Owner approval identifiers, private accounting and historical permit state. No original receipt was rewritten.",
+  "publication_or_submission_claimed": false,
+  "new_paid_authority": false
+}

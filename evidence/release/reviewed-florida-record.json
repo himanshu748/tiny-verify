@@ -1,0 +1,194 @@
+{
+  "registry": "florida_dbpr",
+  "jurisdiction": "US-FL",
+  "record_type": "real_estate_corporation",
+  "licence_number": "CQ247822",
+  "legal_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+  "dba_name": "COLDWELL BANKER REALTY",
+  "licence_type": "Real Estate Corporation",
+  "native_status": "Current,Active",
+  "status": "active",
+  "expiry_date": "2028-03-31",
+  "expiry_literal": "03/31/2028",
+  "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=B1B7828012AA269780F1999CA2AC6DF5",
+  "checked_at": "2026-11-15T13:43:39.646Z",
+  "evidence": {
+    "kind": "provider",
+    "endpoint": "fetch",
+    "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=B1B7828012AA269780F1999CA2AC6DF5",
+    "checked_at": "2026-11-15T13:43:39.646Z",
+    "observation_sha256": "d8fdefc116482673fa70384a50710a4cefd40483e1cfc804e5078f21d1ea624a",
+    "provider_run_id": null
+  },
+  "detail_observation": {
+    "kind": "florida_detail",
+    "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=B1B7828012AA269780F1999CA2AC6DF5",
+    "licence_number": "CQ247822",
+    "legal_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+    "dba_name": "COLDWELL BANKER REALTY",
+    "licence_type": "Real Estate Corporation",
+    "native_status": "Current,Active",
+    "expiry_literal": "03/31/2028",
+    "expiry_date": "2028-03-31",
+    "complaint_form_id": "414055"
+  },
+  "complaint_listing": {
+    "kind": "florida_complaints",
+    "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/ViewComplaint",
+    "detail_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=B1B7828012AA269780F1999CA2AC6DF5",
+    "licence_number": "CQ247822",
+    "legal_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+    "observed_public_form_id": "414055",
+    "response_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+    "coverage": "published_public_listing_non_exhaustive",
+    "coverage_notice": "Below is a listing of public complaints regarding the person or entity selected. This may not reflect all public complaints filed with the Department; for example, all complaints against Community Association Managers (CAMs) are available to the public, regardless of whether any appear below, and may be requested directly from the Department. The Department is also precluded from disclosing any complaints which are confidential pursuant to Florida Statutes.",
+    "outcome": "observed",
+    "rows": [
+      {
+        "case_number": "9881131",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/13/1998",
+        "disposition_date": "1998-08-13",
+        "discipline_description": "08/13/1998 - Sanctions",
+        "action": "sanctions",
+        "action_date": "1998-08-13"
+      },
+      {
+        "case_number": "9683858",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "01/13/1998",
+        "disposition_date": "1998-01-13",
+        "discipline_description": "01/13/1998 - Fine",
+        "action": "fine",
+        "action_date": "1998-01-13"
+      },
+      {
+        "case_number": "9483796",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "06/11/1995",
+        "disposition_date": "1995-06-11",
+        "discipline_description": "06/11/1995 - Fine",
+        "action": "fine",
+        "action_date": "1995-06-11"
+      },
+      {
+        "case_number": "9383725",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/16/1993",
+        "disposition_date": "1993-08-16",
+        "discipline_description": "",
+        "action": "unknown",
+        "action_date": null
+      },
+      {
+        "case_number": "9283754",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "02/05/1993",
+        "disposition_date": "1993-02-05",
+        "discipline_description": "",
+        "action": "unknown",
+        "action_date": null
+      },
+      {
+        "case_number": "9281898",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "09/15/1992",
+        "disposition_date": "1992-09-15",
+        "discipline_description": "",
+        "action": "unknown",
+        "action_date": null
+      },
+      {
+        "case_number": "9180937",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/23/1991",
+        "disposition_date": "1991-08-23",
+        "discipline_description": "08/23/1991 - Fine",
+        "action": "fine",
+        "action_date": "1991-08-23"
+      }
+    ],
+    "raw_selected_text_sha256": "61d4ffb871dbd8824dfbc777e3272d7dbf9af78844899d76be180c4f1a6830ce",
+    "transport_validation": "agent_reported_selected_text_not_independent_browser_capture"
+  },
+  "complaint_evidence": {
+    "kind": "provider",
+    "endpoint": "agent",
+    "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/ViewComplaint",
+    "checked_at": "2026-11-15T13:45:14.923Z",
+    "observation_sha256": "ff1d585636b337c62cf16bec643461fb04972b5fbf56a2d647234c24d6c34764",
+    "provider_run_id": "84ad0058-45a3-4356-baaf-ce3ab245e93d"
+  },
+  "disciplinary_actions": [
+    {
+      "case_number": "9881131",
+      "action": "sanctions",
+      "action_date": "1998-08-13",
+      "description": "08/13/1998 - Sanctions"
+    },
+    {
+      "case_number": "9683858",
+      "action": "fine",
+      "action_date": "1998-01-13",
+      "description": "01/13/1998 - Fine"
+    },
+    {
+      "case_number": "9483796",
+      "action": "fine",
+      "action_date": "1995-06-11",
+      "description": "06/11/1995 - Fine"
+    },
+    {
+      "case_number": "9180937",
+      "action": "fine",
+      "action_date": "1991-08-23",
+      "description": "08/23/1991 - Fine"
+    }
+  ],
+  "coverage": {
+    "expiry": "observed",
+    "disciplinary_history": "published_public_listing_non_exhaustive"
+  },
+  "warnings": [
+    "A Florida Real Estate Corporation licence is distinct from UK/Australian business registration and is not a legal eligibility or good-standing decision.",
+    "This published public complaint listing may omit public cases and cannot disclose confidential complaints; it is not exhaustive and never establishes clean discipline.",
+    "Closed complaints and Final Order outcomes do not by themselves establish discipline. Only explicit action descriptions are identified; empty descriptions remain unknown.",
+    "Historical Fine/Sanctions entries do not override the current native licence status.",
+    "Complaint text is Agent-reported selected text, not an independently captured browser response. Its identity, dates and coverage are validated locally; independent source review remains required."
+  ]
+}

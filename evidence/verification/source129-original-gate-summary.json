@@ -1,0 +1,117 @@
+{
+  "kind": "SANITIZED_SELECTED_FIELDS_OF_ORIGINAL_SOURCE129_GATE_NOT_ORIGINAL_RECEIPT",
+  "original_receipt_sha256": "32526ccd81d0f7e94e4dce7dda4b529a11be053ba4536b8a3aeeaaad9d2c7666",
+  "original_receipt_file": "verification.json",
+  "original_recorded_at": "2026-11-15T13:14:54.366Z",
+  "source_tree_sha256": "7fcec0bcdbb0fc3a3bffbd37821fc432b83544386cd878f377074a44b794adc9",
+  "tests": 129,
+  "pass": 129,
+  "node": "v22.14.0",
+  "checks": [
+    {
+      "name": "fresh-install",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "typecheck",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "build",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "format",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-demo",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-plan",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-replay",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "source-florida-demo",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-florida-semantics",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-operator-disabled-discover",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-operator-disabled-watch",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-operator-disabled-initialize",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-operator-disabled-cleanup",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-operator-disabled-fl-discover",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-operator-disabled-fl-inspect",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-operator-disabled-fl-history",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-operator-disabled-fl-watch",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-library-disabled",
+      "exit_code": 0,
+      "expected_exit_code": 0
+    },
+    {
+      "name": "compiled-legacy-proof-disabled",
+      "exit_code": 1,
+      "expected_exit_code": 1
+    }
+  ],
+  "provider_operations": 0,
+  "external_fetch_attempts": 0,
+  "real_credentials_or_private_grants_read": false,
+  "omitted": "Machine-local paths, command expansions and historical package lineage fields. Original receipt is retained outside this public candidate and was not rewritten.",
+  "temporal_boundary": "This earlier local gate preceded the later successful 15 November Florida provider journey. Its then-current not-ready conclusion is historical, not a new live test."
+}

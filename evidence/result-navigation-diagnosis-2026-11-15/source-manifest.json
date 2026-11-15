@@ -1,0 +1,290 @@
+{
+  "kind": "SOURCE_BACKED_NATIVE_RESULT_NAVIGATION_GOAL_REPAIR",
+  "expected_tests": 129,
+  "source_tree_sha256": "7fcec0bcdbb0fc3a3bffbd37821fc432b83544386cd878f377074a44b794adc9",
+  "prior_source_tree_sha256": "626a34e2d32deed256b63cb12a771f898d36ac675febebc595a8ed2401ccb5db",
+  "files": [
+    {
+      "path": "providers/fetch.ts",
+      "original": "outputs/bounty-drop-002/providers/fetch.ts",
+      "bytes": 7803,
+      "sha256": "5447c66b93d9c2a41ff6dc0b6b328814c6d31d39ad32deff739d7d2ee544eb26"
+    },
+    {
+      "path": "providers/pricing.ts",
+      "original": "outputs/bounty-drop-002/providers/pricing.ts",
+      "bytes": 8014,
+      "sha256": "4ba8b0fa3672daa380852aa0a8663f558fb278569da38e8d739dbc6a1125a166"
+    },
+    {
+      "path": "shared/config.ts",
+      "original": "outputs/bounty-drop-002/shared/config.ts",
+      "bytes": 3443,
+      "sha256": "f03401b149eff4ca568359226230a6029d9bf0efd55cf7eae1024e04774597ee"
+    },
+    {
+      "path": "shared/contracts.ts",
+      "original": "outputs/bounty-drop-002/shared/contracts.ts",
+      "bytes": 4556,
+      "sha256": "2d45ba6ed99ec91ea806b144ff047e4096ff18b26c7e6640051f8f147e87e8f7"
+    },
+    {
+      "path": "shared/errors.ts",
+      "original": "outputs/bounty-drop-002/shared/errors.ts",
+      "bytes": 778,
+      "sha256": "3bdef14e2bcaf1819ba9ecaf0aa6b2f22d2c40bd9b3fdff351d339722cc7dc4d"
+    },
+    {
+      "path": "shared/index.ts",
+      "original": "outputs/bounty-drop-002/shared/index.ts",
+      "bytes": 568,
+      "sha256": "539b0199ad621c741bade805b555637b7ece06c0178a1104ceb963fbd5cf97f4"
+    },
+    {
+      "path": "shared/migration.ts",
+      "original": "outputs/bounty-drop-002/shared/migration.ts",
+      "bytes": 13423,
+      "sha256": "e9996bea5456edb394985164d6afc4375671d4f1a38ae100d0d6c0e611992fad"
+    },
+    {
+      "path": "shared/pool.ts",
+      "original": "outputs/bounty-drop-002/shared/pool.ts",
+      "bytes": 29979,
+      "sha256": "c7c144b1dc45d0c2f182777ca4d6dbad50b2ebdce2d6f879117f3f95c2017a69"
+    },
+    {
+      "path": "tiny-verify/src/cli.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/cli.ts",
+      "bytes": 3738,
+      "sha256": "3913333fb23f6f78289c48c99d31d2f94aaeb434e40c2ed39b38b5c000a7eba3"
+    },
+    {
+      "path": "tiny-verify/src/contracts.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/contracts.ts",
+      "bytes": 6622,
+      "sha256": "f1eae85fc736d34339f3ae7343dc148150cb709a0570adff88ea60b6e6b5be36"
+    },
+    {
+      "path": "tiny-verify/src/demo.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/demo.ts",
+      "bytes": 2349,
+      "sha256": "9bf967a1155746c9ba281abab0be6b250b0e9f6df5c09e8fdbb71f59f513652c"
+    },
+    {
+      "path": "tiny-verify/src/diff.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/diff.ts",
+      "bytes": 4178,
+      "sha256": "c7d502b8bc2b057cd065b68c16d6c73ce55bdfc963160a8849db4fe72910af63"
+    },
+    {
+      "path": "tiny-verify/src/florida-agent.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/florida-agent.ts",
+      "bytes": 14599,
+      "sha256": "a5009e7496b2a2286c92e3985873d19656fdc36ec8e9e7db83e4023356c12bdd"
+    },
+    {
+      "path": "tiny-verify/src/florida.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/florida.ts",
+      "bytes": 31162,
+      "sha256": "a05fd26875ee70ed27c0750d8121cb9e5618c3e6033550b1e2baa94eb3360a05"
+    },
+    {
+      "path": "tiny-verify/src/html.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/html.ts",
+      "bytes": 4019,
+      "sha256": "5ca5cebd1208cb3eda756c6b489b959dc67d454083b85047f9f604b113b3f8e0"
+    },
+    {
+      "path": "tiny-verify/src/index.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/index.ts",
+      "bytes": 518,
+      "sha256": "46e61f25e87a7b9a4de4d1a53b4650203d12888bf4f34fd0849d2ff9799e7699"
+    },
+    {
+      "path": "tiny-verify/src/intake.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/intake.ts",
+      "bytes": 3877,
+      "sha256": "6609f80018a307681205f94f8538d5505132fb54cd330e70e9b8e7f4c71b74d0"
+    },
+    {
+      "path": "tiny-verify/src/live-proof.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/live-proof.ts",
+      "bytes": 4997,
+      "sha256": "7e783baf5d8be277361da4fa2d50260c3d9e91f267be850c023c10650189f6e0"
+    },
+    {
+      "path": "tiny-verify/src/live-provider.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/live-provider.ts",
+      "bytes": 5671,
+      "sha256": "cd9e9369173bbfc6f0a37f99dac304b6d03e8e15806d2ee47495006d795211bd"
+    },
+    {
+      "path": "tiny-verify/src/operator.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/operator.ts",
+      "bytes": 13414,
+      "sha256": "202a88c3c409b3b08410d39d1e17dc7ee9f5141c87eae3b658eaa9e0e7b11638"
+    },
+    {
+      "path": "tiny-verify/src/parser.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/parser.ts",
+      "bytes": 11580,
+      "sha256": "50bd9cc5cec3271c09246b24691925ab21aa4c1301e5be870313d56e63f147e7"
+    },
+    {
+      "path": "tiny-verify/src/provider.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/provider.ts",
+      "bytes": 2896,
+      "sha256": "7eee9663a8f7c75f821e18c16bd982e32bd737b8f1a303c02e929aa2c4c31ac7"
+    },
+    {
+      "path": "tiny-verify/src/registries.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/registries.ts",
+      "bytes": 4684,
+      "sha256": "6f1bebd476d0ea6041d2d1d8eaae016d2c666f20097d4d822754e72293ea666e"
+    },
+    {
+      "path": "tiny-verify/src/report.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/report.ts",
+      "bytes": 2842,
+      "sha256": "7185d4dda3f5d6fa1614e431b41ef2d0776ff00a7dcc06987e0e051b44c17f66"
+    },
+    {
+      "path": "tiny-verify/src/runtime-controls.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/runtime-controls.ts",
+      "bytes": 22903,
+      "sha256": "b5cc07c026d88739a395f4cf2dd40278c9f4946e3ada580d1fe26a29bc1e9657"
+    },
+    {
+      "path": "tiny-verify/src/runtime-transport.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/runtime-transport.ts",
+      "bytes": 57385,
+      "sha256": "058fb84b30d601796923754bb5dd027332e132697a0fb67d7e2b89746c20bdf6"
+    },
+    {
+      "path": "tiny-verify/src/search-html.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/search-html.ts",
+      "bytes": 7289,
+      "sha256": "f1fb6f42940a44fad7243a4bce38929b8398ef78256d467a79fdfbad938c1871"
+    },
+    {
+      "path": "tiny-verify/src/service.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/service.ts",
+      "bytes": 956,
+      "sha256": "33a698d705459bdb0a5ee49b427d73d0039fccf88dd582e31911d789e020846e"
+    },
+    {
+      "path": "tiny-verify/src/status-watch.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/src/status-watch.ts",
+      "bytes": 11044,
+      "sha256": "005938cf0a0c65440e3f0fa0a2c068d13abff5b6d6e682a12e4564b8c6856bc1"
+    },
+    {
+      "path": "tiny-verify/test/diff.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/diff.test.ts",
+      "bytes": 3989,
+      "sha256": "a7b67bccf8b3f34caf68dd2cd2a88fd3b416e75c7f6a518968dcee37f42c5f27"
+    },
+    {
+      "path": "tiny-verify/test/export.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/export.test.ts",
+      "bytes": 2766,
+      "sha256": "52d04ea38f5ff1a1107a701f390b7f07c3e1cd5dc8dc1fa0844492a0b4eb693f"
+    },
+    {
+      "path": "tiny-verify/test/fixtures.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/fixtures.ts",
+      "bytes": 3172,
+      "sha256": "c3205b0698cae629e209868c2a1fdabbcc8a409cf73276eaf8ecf3ecb0eea53e"
+    },
+    {
+      "path": "tiny-verify/test/florida-fixtures.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/florida-fixtures.ts",
+      "bytes": 5483,
+      "sha256": "aedfdc2f94fa45783aed0bd277abff934233b5367496a18063f0007b13827e95"
+    },
+    {
+      "path": "tiny-verify/test/florida-runtime.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/florida-runtime.test.ts",
+      "bytes": 19500,
+      "sha256": "f6c2229f4d2f87f2a564061fb2b469ebc616f22b03d4eb60ac6c27d0a21530b7"
+    },
+    {
+      "path": "tiny-verify/test/florida.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/florida.test.ts",
+      "bytes": 15943,
+      "sha256": "f85f923aa48e05296ae9f31bf53e85c1d63006c754396c2706aed02677ce2e63"
+    },
+    {
+      "path": "tiny-verify/test/intake.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/intake.test.ts",
+      "bytes": 4644,
+      "sha256": "387bab7f451bea64e75bdaae15d17a48770b9a65089633fd2a46ad6427a18db9"
+    },
+    {
+      "path": "tiny-verify/test/live-provider.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/live-provider.test.ts",
+      "bytes": 10539,
+      "sha256": "778a28fce3e549bc5f0b7ed5bec0768978ecf2f8661eb428a8905024aa85cb56"
+    },
+    {
+      "path": "tiny-verify/test/monitor-rest.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/monitor-rest.test.ts",
+      "bytes": 7388,
+      "sha256": "51654e1bb04322ac437aac2b13cf51e9936f404ba949f99b1c4bd47b5910a210"
+    },
+    {
+      "path": "tiny-verify/test/provider.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/provider.test.ts",
+      "bytes": 2893,
+      "sha256": "cd939fada1ea4c034848eba5b5107f257e1229d39a2964ed5e6797dd47fad680"
+    },
+    {
+      "path": "tiny-verify/test/registry.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/registry.test.ts",
+      "bytes": 8654,
+      "sha256": "c9616d5d111584452c24534f0cbec97a677ad188bbba9fb79d8588d35bd2956c"
+    },
+    {
+      "path": "tiny-verify/test/runtime-agent.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/runtime-agent.test.ts",
+      "bytes": 14601,
+      "sha256": "83f4d43a9b8ce1f7167b5d0a49ff59a72df3841a23a77f5e95e149bccf1f2340"
+    },
+    {
+      "path": "tiny-verify/test/runtime-controls.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/runtime-controls.test.ts",
+      "bytes": 6110,
+      "sha256": "62e0780d33acf74cee17c5e71281d2f9eb684b7bfd06cff173d50ec1cbc7aec0"
+    },
+    {
+      "path": "tiny-verify/test/runtime-fixtures.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/runtime-fixtures.ts",
+      "bytes": 5531,
+      "sha256": "a2335231a755e210a675575b21a728cfa879cc0166a61c3beca41865ac5db82e"
+    },
+    {
+      "path": "tiny-verify/test/runtime-monitor.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/runtime-monitor.test.ts",
+      "bytes": 14267,
+      "sha256": "a40ae705ffd4bf5340bf4f959f50e0e896827c19755c0dd25ce84efbe7182aa8"
+    },
+    {
+      "path": "tiny-verify/test/runtime-operator.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/runtime-operator.test.ts",
+      "bytes": 12698,
+      "sha256": "e85c81753290a03fed80a0a3e2ffe53520ef88ecd60596d8a593db6bbdbf2db8"
+    },
+    {
+      "path": "tiny-verify/test/search.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/search.test.ts",
+      "bytes": 4327,
+      "sha256": "f7ad301bb8548ac59ad33854c1e031ce72cd2577c17212a664dbd80c02cf9241"
+    },
+    {
+      "path": "tiny-verify/test/status-watch.test.ts",
+      "original": "outputs/bounty-drop-002/tiny-verify/test/status-watch.test.ts",
+      "bytes": 8307,
+      "sha256": "69c3c862b4611d5b19eb17fef20265c9ec94925e93d7ab104d3963f386743da2"
+    }
+  ]
+}

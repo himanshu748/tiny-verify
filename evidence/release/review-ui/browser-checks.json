@@ -1,0 +1,459 @@
+{
+  "kind": "SELF_CONTAINED_SAVED_EVIDENCE_REVIEW_LOCAL_BROWSER_CHECK_NOT_LIVE_WEBAPP",
+  "started_at": "2026-11-15T14:11:08.737Z",
+  "input_sha256": "3a8fe711df3b18112e4cca4a1e0c187d115c10a231b40eb944ee19819ea7d6be",
+  "review_html_sha256": "410611c7ac258bc1e473aec77eb58d3c5b3828510c62b14a368060b7f4cc6a5a",
+  "checks": [
+    {
+      "name": "desktop_actual_viewport",
+      "passed": true
+    },
+    {
+      "name": "desktop_corporate_name_exact",
+      "passed": true
+    },
+    {
+      "name": "desktop_native_status_and_expiry_preserved",
+      "passed": true
+    },
+    {
+      "name": "desktop_saved_only_no_search_or_live_controls",
+      "passed": true
+    },
+    {
+      "name": "desktop_visible_interactive_targets_44px",
+      "passed": true,
+      "targets": [
+        {
+          "name": "Skip to saved review",
+          "width": 178.734375,
+          "height": 44
+        },
+        {
+          "name": "tvTinyVerifyThe evidence, in context.",
+          "width": 179.421875,
+          "height": 44
+        },
+        {
+          "name": "Download JSON ↓",
+          "width": 157.625,
+          "height": 44
+        },
+        {
+          "name": "History CSV ↓",
+          "width": 131.640625,
+          "height": 44
+        },
+        {
+          "name": "Licence",
+          "width": 285,
+          "height": 56
+        },
+        {
+          "name": "Published history 7",
+          "width": 285,
+          "height": 56
+        },
+        {
+          "name": "Monitor Paused",
+          "width": 285,
+          "height": 56
+        },
+        {
+          "name": "Sources",
+          "width": 285,
+          "height": 56
+        },
+        {
+          "name": "Open the official licence ↗",
+          "width": 164.796875,
+          "height": 44
+        },
+        {
+          "name": "Back to summary ↑",
+          "width": 102.03125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "desktop_deliberate_local_fonts",
+      "passed": true,
+      "fonts": {
+        "body": "Arial, Helvetica, sans-serif",
+        "id": "SFMono-Regular, Consolas, \"Liberation Mono\", monospace",
+        "external_faces": 0
+      }
+    },
+    {
+      "name": "desktop_summary_no_horizontal_overflow",
+      "passed": true
+    },
+    {
+      "name": "keyboard_skip_link_visible_focus",
+      "passed": true
+    },
+    {
+      "name": "keyboard_arrow_activates_history",
+      "passed": true
+    },
+    {
+      "name": "keyboard_end_sources",
+      "passed": true
+    },
+    {
+      "name": "keyboard_home_licence",
+      "passed": true
+    },
+    {
+      "name": "desktop_tab_licence_functional",
+      "passed": true
+    },
+    {
+      "name": "desktop_licence_no_horizontal_overflow",
+      "passed": true,
+      "viewport": 1440,
+      "scroll": 1440
+    },
+    {
+      "name": "desktop_tab_history_functional",
+      "passed": true
+    },
+    {
+      "name": "desktop_history_no_horizontal_overflow",
+      "passed": true,
+      "viewport": 1440,
+      "scroll": 1440
+    },
+    {
+      "name": "desktop_tab_monitor_functional",
+      "passed": true
+    },
+    {
+      "name": "desktop_monitor_no_horizontal_overflow",
+      "passed": true,
+      "viewport": 1440,
+      "scroll": 1440
+    },
+    {
+      "name": "desktop_tab_sources_functional",
+      "passed": true
+    },
+    {
+      "name": "desktop_sources_no_horizontal_overflow",
+      "passed": true,
+      "viewport": 1440,
+      "scroll": 1440
+    },
+    {
+      "name": "desktop_seven_published_rows",
+      "passed": true
+    },
+    {
+      "name": "desktop_four_explicit_actions_three_unknown",
+      "passed": true
+    },
+    {
+      "name": "desktop_all1901_incident_dates_unknown",
+      "passed": true
+    },
+    {
+      "name": "desktop_coverage_warning_complete",
+      "passed": true
+    },
+    {
+      "name": "desktop_monitor_paused_two_observations_client_comparison",
+      "passed": true
+    },
+    {
+      "name": "desktop_provider_outcomes_unknown",
+      "passed": true
+    },
+    {
+      "name": "desktop_no_alert_or_complaint_recheck_claim",
+      "passed": true
+    },
+    {
+      "name": "desktop_official_source_hrefs_preserved_not_visited",
+      "passed": true
+    },
+    {
+      "name": "desktop_separate_source_dates_and_methods",
+      "passed": true
+    },
+    {
+      "name": "desktop_hash_refresh_restores_sources",
+      "passed": true
+    },
+    {
+      "name": "json_actual_download_exact_curated_bytes",
+      "passed": true,
+      "bytes": 10144,
+      "sha256": "3a8fe711df3b18112e4cca4a1e0c187d115c10a231b40eb944ee19819ea7d6be"
+    },
+    {
+      "name": "csv_actual_download_exact_curated_bytes",
+      "passed": true,
+      "bytes": 3791,
+      "sha256": "220619c4a4245c194971cc40d1c2fc4d86431ed34e21dfbc893934c5f82f01c1"
+    },
+    {
+      "name": "mobile_actual_viewport",
+      "passed": true
+    },
+    {
+      "name": "mobile_corporate_name_exact",
+      "passed": true
+    },
+    {
+      "name": "mobile_native_status_and_expiry_preserved",
+      "passed": true
+    },
+    {
+      "name": "mobile_saved_only_no_search_or_live_controls",
+      "passed": true
+    },
+    {
+      "name": "mobile_visible_interactive_targets_44px",
+      "passed": true,
+      "targets": [
+        {
+          "name": "Skip to saved review",
+          "width": 178.734375,
+          "height": 44
+        },
+        {
+          "name": "tvTinyVerifyThe evidence, in context.",
+          "width": 168.296875,
+          "height": 44
+        },
+        {
+          "name": "Download JSON ↓",
+          "width": 172.5,
+          "height": 44
+        },
+        {
+          "name": "History CSV ↓",
+          "width": 172.5,
+          "height": 44
+        },
+        {
+          "name": "Licence",
+          "width": 88.5,
+          "height": 78.375
+        },
+        {
+          "name": "Published history 7",
+          "width": 88.5,
+          "height": 78.375
+        },
+        {
+          "name": "Monitor Paused",
+          "width": 88.5,
+          "height": 78.375
+        },
+        {
+          "name": "Sources",
+          "width": 88.5,
+          "height": 78.375
+        },
+        {
+          "name": "Open the official licence ↗",
+          "width": 164.796875,
+          "height": 44
+        },
+        {
+          "name": "Back to summary ↑",
+          "width": 354,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "mobile_deliberate_local_fonts",
+      "passed": true,
+      "fonts": {
+        "body": "Arial, Helvetica, sans-serif",
+        "id": "SFMono-Regular, Consolas, \"Liberation Mono\", monospace",
+        "external_faces": 0
+      }
+    },
+    {
+      "name": "mobile_summary_no_horizontal_overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile_tab_licence_functional",
+      "passed": true
+    },
+    {
+      "name": "mobile_licence_no_horizontal_overflow",
+      "passed": true,
+      "viewport": 390,
+      "scroll": 390
+    },
+    {
+      "name": "mobile_tab_history_functional",
+      "passed": true
+    },
+    {
+      "name": "mobile_history_no_horizontal_overflow",
+      "passed": true,
+      "viewport": 390,
+      "scroll": 390
+    },
+    {
+      "name": "mobile_tab_monitor_functional",
+      "passed": true
+    },
+    {
+      "name": "mobile_monitor_no_horizontal_overflow",
+      "passed": true,
+      "viewport": 390,
+      "scroll": 390
+    },
+    {
+      "name": "mobile_tab_sources_functional",
+      "passed": true
+    },
+    {
+      "name": "mobile_sources_no_horizontal_overflow",
+      "passed": true,
+      "viewport": 390,
+      "scroll": 390
+    },
+    {
+      "name": "mobile_seven_published_rows",
+      "passed": true
+    },
+    {
+      "name": "mobile_four_explicit_actions_three_unknown",
+      "passed": true
+    },
+    {
+      "name": "mobile_all1901_incident_dates_unknown",
+      "passed": true
+    },
+    {
+      "name": "mobile_coverage_warning_complete",
+      "passed": true
+    },
+    {
+      "name": "mobile_monitor_paused_two_observations_client_comparison",
+      "passed": true
+    },
+    {
+      "name": "mobile_provider_outcomes_unknown",
+      "passed": true
+    },
+    {
+      "name": "mobile_no_alert_or_complaint_recheck_claim",
+      "passed": true
+    },
+    {
+      "name": "mobile_official_source_hrefs_preserved_not_visited",
+      "passed": true
+    },
+    {
+      "name": "mobile_separate_source_dates_and_methods",
+      "passed": true
+    },
+    {
+      "name": "mobile_hash_refresh_restores_sources",
+      "passed": true
+    },
+    {
+      "name": "reduced_motion_respected",
+      "passed": true
+    },
+    {
+      "name": "tiny129_47_and_property1e0_66_sources_unchanged",
+      "passed": true,
+      "tiny_source": "7fcec0bcdbb0fc3a3bffbd37821fc432b83544386cd878f377074a44b794adc9",
+      "tiny_files": 47,
+      "property_source": "1e0bfdf50450d23feb215b2573cca3bdcf468987b12d3b43746c10a0471ad225",
+      "property_files": 66
+    },
+    {
+      "name": "zero_external_or_provider_requests",
+      "passed": true
+    },
+    {
+      "name": "no_frontend_errors",
+      "passed": true
+    }
+  ],
+  "requests": [
+    {
+      "device": "desktop",
+      "path": "/",
+      "method": "GET",
+      "allowed": true
+    },
+    {
+      "device": "desktop",
+      "path": "/",
+      "method": "GET",
+      "allowed": true
+    },
+    {
+      "device": "mobile",
+      "path": "/",
+      "method": "GET",
+      "allowed": true
+    },
+    {
+      "device": "mobile",
+      "path": "/",
+      "method": "GET",
+      "allowed": true
+    }
+  ],
+  "blocked": [],
+  "errors": [],
+  "downloads": [
+    {
+      "type": "json",
+      "file": "actual-review.json",
+      "bytes": 10144,
+      "sha256": "3a8fe711df3b18112e4cca4a1e0c187d115c10a231b40eb944ee19819ea7d6be"
+    },
+    {
+      "type": "csv",
+      "file": "actual-history.csv",
+      "bytes": 3791,
+      "sha256": "220619c4a4245c194971cc40d1c2fc4d86431ed34e21dfbc893934c5f82f01c1"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "desktop-saved-review.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bytes": 148152,
+      "sha256": "ef58310181436d3a082e16d45160902ac4481b235a16b79a30bf0dbd02839063"
+    },
+    {
+      "file": "mobile-published-history.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bytes": 65359,
+      "sha256": "aa7e4046f61f0c0e07fb64eb41f70c72f055dc4cdc2baa40999a9893043da4b6"
+    }
+  ],
+  "provider_calls": 0,
+  "private_key_grant_or_profile_reads": false,
+  "runtime_backend_control_or_record_mutations": false,
+  "browser_version": "157.0.8103.52",
+  "all_contexts_closed": true,
+  "browser_closed": true,
+  "local_static_server_closed": true,
+  "finished_at": "2026-11-15T14:11:16.815Z",
+  "passed": true,
+  "checks_total": 60,
+  "checks_passed": 60
+}

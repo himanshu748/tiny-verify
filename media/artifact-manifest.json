@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-11-15T14:28:28.594123+00:00",
+  "kind": "VALIDATED_TINYVERIFY_SAVED_REVIEW_VIDEO_MEDIA",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3111,
+      "sha256": "1e949d8d28dca10ed5eae64ac219ae8045950f4f539292e6ba83ba602c7fdb27"
+    },
+    {
+      "path": "tinyverify-demo-capture-manifest.json",
+      "bytes": 8342,
+      "sha256": "7fa72312cca68c90b1003181ed53fd1ece29db8fb6c49688d426d4b8f19dcccc"
+    },
+    {
+      "path": "tinyverify-demo-ffprobe.json",
+      "bytes": 334,
+      "sha256": "d55f3c780b463ebefee0629bb770569ce571f346f12887231d3a6525752de35e"
+    },
+    {
+      "path": "tinyverify-demo-midframe.png",
+      "bytes": 344100,
+      "sha256": "aaf04bc717b92dc418f5233a533d81a0cc9353270582c6be41c3444bdf8b393c"
+    },
+    {
+      "path": "tinyverify-demo-poster.jpg",
+      "bytes": 137449,
+      "sha256": "abb9676c9711d0a84dec81ba3e936fc264307483f07ed14c4833d30d295dae17"
+    },
+    {
+      "path": "tinyverify-demo-storyboard.json",
+      "bytes": 3802,
+      "sha256": "952e70fabe2ab319538333ca2fde3f88b85ddd815fafc91c3bb68549c06cc833"
+    },
+    {
+      "path": "tinyverify-demo-verification.json",
+      "bytes": 1749,
+      "sha256": "a5381c9f70b4d9b80d402ec449215f5436e45f777cdec3430d8121bb89c99e04"
+    },
+    {
+      "path": "tinyverify-demo.mp4",
+      "bytes": 5112767,
+      "sha256": "2a70d3da81d2a128c49b504ece4db30e7169bceb922abae7ed2e1100b66e3361"
+    },
+    {
+      "path": "tinyverify-demo.vtt",
+      "bytes": 1326,
+      "sha256": "e13bf6d426c05b9af4c7d0c7228babf961b88e301f8e8d3fcdafd0a784e92d55"
+    }
+  ]
+}

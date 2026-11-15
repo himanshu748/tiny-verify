@@ -1,0 +1,120 @@
+{
+  "kind": "SANITIZED_SELECTED_FIELDS_OF_HISTORICAL_EIGHT_FETCH_RUN_NOT_ORIGINAL_RECEIPT",
+  "original_receipt_sha256": "49e80d231edc90b633d4f4addcb78cf7da1baa81601d69c6238ab582152bd00d",
+  "recorded_at": "2026-11-13T09:56:54.918574+00:00",
+  "cases": [
+    {
+      "operation": "01-gb-tesco-search",
+      "result_kind": "incomplete",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=TESCO+PLC",
+      "evidence": {
+        "kind": "provider",
+        "endpoint": "fetch",
+        "source_url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=TESCO+PLC",
+        "checked_at": "2026-11-13T09:37:12.957Z",
+        "observation_sha256": "3bb65ddd0b6ca934bb0a3d580f93f7f6b7d38d79cab7f634a7384927e9393d4a",
+        "provider_run_id": null
+      }
+    },
+    {
+      "operation": "02-gb-tesco-detail",
+      "result_kind": "verified",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/00445790",
+      "evidence": {
+        "kind": "provider",
+        "endpoint": "fetch",
+        "source_url": "https://find-and-update.company-information.service.gov.uk/company/00445790",
+        "checked_at": "2026-11-13T09:37:51.040Z",
+        "observation_sha256": "b4ec1df8a4806f3ce00343771f23264fbae091f0fa1b0871fd85d6e8f179ef6f",
+        "provider_run_id": null
+      }
+    },
+    {
+      "operation": "03-au-woolworths-search",
+      "result_kind": "incomplete",
+      "source_url": "https://abr.business.gov.au/Search/ResultsAll?SearchText=Woolworths+Group+Limited",
+      "evidence": {
+        "kind": "provider",
+        "endpoint": "fetch",
+        "source_url": "https://abr.business.gov.au/Search/ResultsAll?SearchText=Woolworths+Group+Limited",
+        "checked_at": "2026-11-13T09:38:14.882Z",
+        "observation_sha256": "e8383fca9958dc27a7dbb551c1f77f490b59a68934da125d680e35f10f748621",
+        "provider_run_id": null
+      }
+    },
+    {
+      "operation": "04-au-woolworths-detail",
+      "result_kind": "verified",
+      "source_url": "https://abr.business.gov.au/ABN/View/88000014675",
+      "evidence": {
+        "kind": "provider",
+        "endpoint": "fetch",
+        "source_url": "https://abr.business.gov.au/ABN/View/88000014675",
+        "checked_at": "2026-11-13T09:39:37.142Z",
+        "observation_sha256": "87afa1d27c8d1edb8586fc834069e1261726deac341da81ee6e7b0826e043c78",
+        "provider_run_id": null
+      }
+    },
+    {
+      "operation": "05-gb-sainsbury-search",
+      "result_kind": "incomplete",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=J+SAINSBURY+PLC",
+      "evidence": {
+        "kind": "provider",
+        "endpoint": "fetch",
+        "source_url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=J+SAINSBURY+PLC",
+        "checked_at": "2026-11-13T09:40:36.536Z",
+        "observation_sha256": "8d0c3ebd687e22100a762b067a848dc95a8141206d8275f5e684a806ceef8da3",
+        "provider_run_id": null
+      }
+    },
+    {
+      "operation": "06-gb-sainsbury-detail",
+      "result_kind": "verified",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/00185647",
+      "evidence": {
+        "kind": "provider",
+        "endpoint": "fetch",
+        "source_url": "https://find-and-update.company-information.service.gov.uk/company/00185647",
+        "checked_at": "2026-11-13T09:40:57.765Z",
+        "observation_sha256": "c04061c8fdb15c0de5a369aa35bfc8928339da1893bbde955044d44b3e81b9ef",
+        "provider_run_id": null
+      }
+    },
+    {
+      "operation": "07-gb-no-match",
+      "result_kind": "not_found",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=TinyVerifyzzzznomatch20261113",
+      "evidence": {
+        "kind": "provider",
+        "endpoint": "fetch",
+        "source_url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=TinyVerifyzzzznomatch20261113",
+        "checked_at": "2026-11-13T09:42:08.227Z",
+        "observation_sha256": "badac97f95268cd73271187d627fcb64ac97bc3e379d9ac860bf336b7bab092b",
+        "provider_run_id": null
+      }
+    },
+    {
+      "operation": "08-gb-partial",
+      "result_kind": "incomplete",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=Tesco",
+      "evidence": {
+        "kind": "provider",
+        "endpoint": "fetch",
+        "source_url": "https://find-and-update.company-information.service.gov.uk/search/companies?q=Tesco",
+        "checked_at": "2026-11-13T09:42:50.520Z",
+        "observation_sha256": "162579afa60b180a53e2a89a21c8424b6005abc5b0e4246da0dfbcafaec8ec16",
+        "provider_run_id": null
+      }
+    }
+  ],
+  "agent": {
+    "deadline_expired": true,
+    "terminal_after_cleanup": true,
+    "usable_pagination_result": false
+  },
+  "monitor_created": false,
+  "historical_only": true,
+  "boundary": "Eight genuine UK/AU Fetch operations and a failed Agent attempt on 13 November. Not fresh Florida evidence, not proof of licence expiry/discipline coverage, and not a successful Monitor test.",
+  "omitted": "Search-result bulk, account run ID and budget information. Original selected public summary remains unchanged outside this candidate."
+}

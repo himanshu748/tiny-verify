@@ -1,0 +1,331 @@
+{
+  "kind": "ACTUAL_LOCAL_SAVED_REVIEW_CLICK_SCROLL_CAPTURE_FOR_EDITED_SILENT_VIDEO",
+  "started_at": "2026-11-15T14:20:56.807Z",
+  "browser_fallback": "User-approved disposable local Chrome; in-app browser automation unavailable",
+  "viewport": {
+    "width": 1440,
+    "height": 810
+  },
+  "review_html_sha256": "410611c7ac258bc1e473aec77eb58d3c5b3828510c62b14a368060b7f4cc6a5a",
+  "input_sha256": "3a8fe711df3b18112e4cca4a1e0c187d115c10a231b40eb944ee19819ea7d6be",
+  "shots": [
+    {
+      "name": "01-summary",
+      "file": "frames/01-summary.png",
+      "sha256": "7715a181ef4d4f363bb4e349265329d329442934bd21507a756ff47280790028",
+      "bytes": 102804,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#licence",
+      "scroll_y": 0
+    },
+    {
+      "name": "02-licence",
+      "file": "frames/02-licence.png",
+      "sha256": "f69c6d810e4c0845b0011045b036df4cd12f53c6c983c0db9cafa9e102574cf2",
+      "bytes": 110659,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#licence",
+      "scroll_y": 574
+    },
+    {
+      "name": "03-history-summary",
+      "file": "frames/03-history-summary.png",
+      "sha256": "ee2347444314c98c709248c6b7ec4af35e8f29dcba7f281f9f2cc53de8bb4dba",
+      "bytes": 99980,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#history",
+      "scroll_y": 574
+    },
+    {
+      "name": "04-history-rows",
+      "file": "frames/04-history-rows.png",
+      "sha256": "c9e8ba71ac6e8594d836f7ee8d1bc6d9bbfa8c82a11b0a3ac3789fa2f3203c82",
+      "bytes": 104965,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#history",
+      "scroll_y": 854
+    },
+    {
+      "name": "05-unknown-action",
+      "file": "frames/05-unknown-action.png",
+      "sha256": "bbdc639932b569cc6bc6710adf421a1b73eecd3604849d4a312da5b4b373147b",
+      "bytes": 87993,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#history",
+      "scroll_y": 1095
+    },
+    {
+      "name": "06-history-tabs",
+      "file": "frames/06-history-tabs.png",
+      "sha256": "ee2347444314c98c709248c6b7ec4af35e8f29dcba7f281f9f2cc53de8bb4dba",
+      "bytes": 99980,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#history",
+      "scroll_y": 574
+    },
+    {
+      "name": "07-monitor-paused",
+      "file": "frames/07-monitor-paused.png",
+      "sha256": "2ce37e244236c6793cc76d6657f75dd4ff8c9fcf485d6362e95dd4c2cca60341",
+      "bytes": 99597,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#monitor",
+      "scroll_y": 574
+    },
+    {
+      "name": "08-monitor-details",
+      "file": "frames/08-monitor-details.png",
+      "sha256": "b43cd91d25d686995cb32ef879d23b616f4d6d05492f0d87c522ecddfd74ba7e",
+      "bytes": 94651,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#monitor",
+      "scroll_y": 737
+    },
+    {
+      "name": "09-monitor-tabs",
+      "file": "frames/09-monitor-tabs.png",
+      "sha256": "2ce37e244236c6793cc76d6657f75dd4ff8c9fcf485d6362e95dd4c2cca60341",
+      "bytes": 99597,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#monitor",
+      "scroll_y": 574
+    },
+    {
+      "name": "10-source-methods",
+      "file": "frames/10-source-methods.png",
+      "sha256": "7c987c6baa990e8f8fbbc6114279debc6011274e8a15422b09b260daf7819ef9",
+      "bytes": 105099,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#sources",
+      "scroll_y": 574
+    },
+    {
+      "name": "11-source-notes",
+      "file": "frames/11-source-notes.png",
+      "sha256": "48d02ef418cf31a0e0e09fda21a8e942eecd9b1b01dcf361e61f507fd5351ec8",
+      "bytes": 106379,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#sources",
+      "scroll_y": 763
+    },
+    {
+      "name": "12-export-ready",
+      "file": "frames/12-export-ready.png",
+      "sha256": "0767f23e8019a15f07727e60fa6b7c92292ca0b39032c52f70ff7be9f13884bc",
+      "bytes": 93704,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#sources",
+      "scroll_y": 0
+    },
+    {
+      "name": "13-json-downloaded",
+      "file": "frames/13-json-downloaded.png",
+      "sha256": "3f1028d679c8883aaa997210f97d07b4950dec9a24fa6b91ded1b448bfe3a831",
+      "bytes": 98151,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#sources",
+      "scroll_y": 0
+    },
+    {
+      "name": "14-csv-downloaded",
+      "file": "frames/14-csv-downloaded.png",
+      "sha256": "1c63c4a4e4071f7ee7565cd98a20ae182553597f5acba6c2d9047be622516df9",
+      "bytes": 98064,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#sources",
+      "scroll_y": 0
+    },
+    {
+      "name": "15-end",
+      "file": "frames/15-end.png",
+      "sha256": "1c63c4a4e4071f7ee7565cd98a20ae182553597f5acba6c2d9047be622516df9",
+      "bytes": 98064,
+      "viewport": {
+        "width": 1440,
+        "height": 810
+      },
+      "url_hash": "#sources",
+      "scroll_y": 0
+    }
+  ],
+  "actions": [
+    {
+      "kind": "actual_click",
+      "label": "licence",
+      "selector": "#tab-licence",
+      "point": {
+        "x": 262.5,
+        "y": 645.75
+      },
+      "source_url_hash": "#licence"
+    },
+    {
+      "kind": "actual_scroll",
+      "selector": ".tabs",
+      "delta": 573.75,
+      "scroll_y": 574
+    },
+    {
+      "kind": "actual_click",
+      "label": "history",
+      "selector": "#tab-history",
+      "point": {
+        "x": 567.5,
+        "y": 71.75
+      },
+      "source_url_hash": "#history"
+    },
+    {
+      "kind": "actual_scroll",
+      "selector": ".history-table caption",
+      "delta": 280.078125,
+      "scroll_y": 854
+    },
+    {
+      "kind": "actual_scroll",
+      "selector": ".history-table tbody tr:nth-child(4)",
+      "delta": 345.203125,
+      "scroll_y": 1095
+    },
+    {
+      "kind": "actual_scroll",
+      "selector": ".tabs",
+      "delta": -521.25,
+      "scroll_y": 574
+    },
+    {
+      "kind": "actual_click",
+      "label": "monitor",
+      "selector": "#tab-monitor",
+      "point": {
+        "x": 872.5,
+        "y": 71.75
+      },
+      "source_url_hash": "#monitor"
+    },
+    {
+      "kind": "actual_scroll",
+      "selector": ".timeline",
+      "delta": 360.0625,
+      "scroll_y": 737
+    },
+    {
+      "kind": "actual_scroll",
+      "selector": ".tabs",
+      "delta": -163.25,
+      "scroll_y": 574
+    },
+    {
+      "kind": "actual_click",
+      "label": "sources",
+      "selector": "#tab-sources",
+      "point": {
+        "x": 1177.5,
+        "y": 71.75
+      },
+      "source_url_hash": "#sources"
+    },
+    {
+      "kind": "actual_scroll",
+      "selector": ".audit-note",
+      "delta": 352.859375,
+      "scroll_y": 763
+    },
+    {
+      "kind": "actual_scroll",
+      "selector": "document_top",
+      "scroll_y": 0
+    },
+    {
+      "kind": "actual_click",
+      "label": "json",
+      "selector": "#download-json",
+      "point": {
+        "x": 1099.546875,
+        "y": 391.71875
+      },
+      "source_url_hash": "#sources"
+    },
+    {
+      "kind": "actual_download",
+      "format": "json",
+      "bytes": 10144,
+      "sha256": "3a8fe711df3b18112e4cca4a1e0c187d115c10a231b40eb944ee19819ea7d6be"
+    },
+    {
+      "kind": "actual_click",
+      "label": "csv",
+      "selector": "#download-csv",
+      "point": {
+        "x": 1254.1796875,
+        "y": 391.71875
+      },
+      "source_url_hash": "#sources"
+    },
+    {
+      "kind": "actual_download",
+      "format": "csv",
+      "bytes": 3791,
+      "sha256": "220619c4a4245c194971cc40d1c2fc4d86431ed34e21dfbc893934c5f82f01c1"
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/",
+      "allowed": true
+    }
+  ],
+  "blocked": [],
+  "provider_calls": 0,
+  "private_key_or_saved_profile_reads": false,
+  "desktop_or_account_pixels_captured": false,
+  "original_review_modified": false,
+  "browser_version": "157.0.8103.52",
+  "page_errors": 0,
+  "passed": true,
+  "all_contexts_browser_and_server_closed": true,
+  "finished_at": "2026-11-15T14:21:13.190Z"
+}

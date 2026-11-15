@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-11-15T14:12:58.649550+00:00",
+  "review_html_sha256": "410611c7ac258bc1e473aec77eb58d3c5b3828510c62b14a368060b7f4cc6a5a",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2642,
+      "sha256": "01c0b1168958838c05053fea09d6f5d083da70c776975e5759020d3ff1943b6b"
+    },
+    {
+      "path": "browser-checks.json",
+      "bytes": 10738,
+      "sha256": "8fe7876b5699271ef3802a731b8043a31f43655cbf12aa91faccb6d4dda6414e"
+    },
+    {
+      "path": "desktop-review.png",
+      "bytes": 137120,
+      "sha256": "4ddec6d518c286e109dde1aab30fb5d6b8aac9b5b7e6ec70a813a8aa34a0ca18"
+    },
+    {
+      "path": "direct-file-and-captures.json",
+      "bytes": 968,
+      "sha256": "25060bf2ddabd97d85ad05619e319835415f8640cb9c1fa7e53760ab989a38c0"
+    },
+    {
+      "path": "mobile-history.png",
+      "bytes": 51672,
+      "sha256": "dfffd5aa2f6abb2f111c3bfc6270bcb10566d989260c135f91f7e72b5f42c721"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1337,
+      "sha256": "96d1a2f16a1b306230cb641f42a48531d38b221b1bdfe6d71c768ca77cfc0453"
+    }
+  ]
+}

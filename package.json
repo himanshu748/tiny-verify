@@ -1,0 +1,31 @@
+{
+  "name": "tinyverify-judge-package",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "demo": "tsx tiny-verify/src/demo.ts",
+    "plan": "tsx tiny-verify/src/cli.ts plan",
+    "replay": "tsx tiny-verify/src/cli.ts replay",
+    "operator": "tsx tiny-verify/src/operator.ts",
+    "test": "node scripts/test.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "format:check": "prettier --check \"tiny-verify/src/**/*.ts\" \"tiny-verify/test/**/*.ts\" \"shared/**/*.ts\" \"providers/**/*.ts\" \"scripts/*.mjs\" \"docs/*.md\" README.md package.json tsconfig.json",
+    "verify": "node scripts/verify.mjs",
+    "demo:florida": "tsx scripts/florida-demo.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}

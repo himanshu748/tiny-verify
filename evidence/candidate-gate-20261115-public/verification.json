@@ -1,0 +1,274 @@
+{
+  "checked_at": "2026-11-15T14:41:42.282Z",
+  "status": "LOCAL_CANDIDATE_FAILED_NOT_READY",
+  "checks": [
+    {
+      "name": "fresh-install",
+      "command": [
+        "npm",
+        "ci",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "af1bbd17133a3919f7864e2c0d19c85637d4395c4f7e4b5f79da96bdeb297c2d",
+      "output_bytes": 355
+    },
+    {
+      "name": "tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "c0032353940221a2907282d4df12f36f2c1e209e91129ea88f5ae9cc157488e2",
+      "output_bytes": 29923
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "f8262d77f0e433dc3f751b6298146415fb03b4ee7c561d9a5b51bc9353349171",
+      "output_bytes": 60
+    },
+    {
+      "name": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "595ede83e7f94c3c80a2e988a5bd7e86c5f2836127e48287558cf4684648b180",
+      "output_bytes": 47
+    },
+    {
+      "name": "format",
+      "command": [
+        "npm",
+        "run",
+        "format:check"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "ed42ef4e6a657e6a420bad7fae7619a2fa572ee0f1a1143f0a0eecedac65486c",
+      "output_bytes": 288
+    },
+    {
+      "name": "compiled-demo",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/demo.js"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "4cae42ad4be763d5d0652aa0164acf77c873908acaf9a5d1a357fee3be2afceb",
+      "output_bytes": 4515
+    },
+    {
+      "name": "compiled-plan",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/cli.js",
+        "plan",
+        "examples/request-gb.json"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "34f04ca53fcb3d4a446de2e2f9f9d7e616a5d1cc09aee9a6970a7f70364ea002",
+      "output_bytes": 876
+    },
+    {
+      "name": "compiled-replay",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/cli.js",
+        "replay",
+        "tiny-verify/evidence/live-fetch-proof.json",
+        "historical-review"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "55af5b6aa6bd03835b580c84ca9d5dd292ca6d035a853df4a87e7641d585a153",
+      "output_bytes": 190
+    },
+    {
+      "name": "source-florida-demo",
+      "command": [
+        "npm",
+        "run",
+        "--silent",
+        "demo:florida",
+        "--",
+        "florida-synthetic-review"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "71893bc5e4504843d6d93d8e35574088c5beba146d2742e5a31c3a75f52fe709",
+      "output_bytes": 6369
+    },
+    {
+      "name": "compiled-florida-semantics",
+      "command": [
+        "node",
+        "--input-type=module",
+        "-e",
+        "import {parseFloridaComplaints,attachFloridaComplaints,exportFloridaLicence} from \"./dist/tiny-verify/src/florida.js\";import {flRecord,flReceipt,complaintHtml,notice} from \"./dist/tiny-verify/test/florida-fixtures.js\";const r=flRecord();const h=parseFloridaComplaints(r.detail_observation,\"999001\",r.legal_name,notice,complaintHtml({empty:true}));const record=attachFloridaComplaints(r,h,flReceipt(h));if(record.disciplinary_actions!==null||h.outcome!==\"unknown\"||h.rows.length!==0)throw Error(\"False clearance\");const report=exportFloridaLicence(record);if(!report.html.includes(\"Unknown; no clearance inferred\"))throw Error(\"Missing warning\");console.log(JSON.stringify({mode:\"synthetic_compiled_florida\",provider_requests:0,expiry:record.expiry_date,visible_rows:h.rows.length,outcome:h.outcome,disciplinary_actions:record.disciplinary_actions,clearance_claimed:false}));"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "928c027d3ed5c400b4437944a4d123a69e70ba4f11a4eefdac2682117ed47ac7",
+      "output_bytes": 173
+    },
+    {
+      "name": "compiled-operator-disabled-discover",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/operator.js",
+        "discover",
+        "/unread-input",
+        "/unread-output"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "8e600db10b76fe2b8a17bdce338f6119729417e6500e874d4dc91e1816f08432",
+      "output_bytes": 74
+    },
+    {
+      "name": "compiled-operator-disabled-watch",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/operator.js",
+        "watch",
+        "/unread-input",
+        "/unread-output"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "8e600db10b76fe2b8a17bdce338f6119729417e6500e874d4dc91e1816f08432",
+      "output_bytes": 74
+    },
+    {
+      "name": "compiled-operator-disabled-initialize",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/operator.js",
+        "initialize",
+        "/unread-input",
+        "/unread-output"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "8e600db10b76fe2b8a17bdce338f6119729417e6500e874d4dc91e1816f08432",
+      "output_bytes": 74
+    },
+    {
+      "name": "compiled-operator-disabled-cleanup",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/operator.js",
+        "cleanup",
+        "/unread-input",
+        "/unread-output"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "8e600db10b76fe2b8a17bdce338f6119729417e6500e874d4dc91e1816f08432",
+      "output_bytes": 74
+    },
+    {
+      "name": "compiled-operator-disabled-fl-discover",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/operator.js",
+        "fl-discover",
+        "/unread-input",
+        "/unread-output"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "8e600db10b76fe2b8a17bdce338f6119729417e6500e874d4dc91e1816f08432",
+      "output_bytes": 74
+    },
+    {
+      "name": "compiled-operator-disabled-fl-inspect",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/operator.js",
+        "fl-inspect",
+        "/unread-input",
+        "/unread-output"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "8e600db10b76fe2b8a17bdce338f6119729417e6500e874d4dc91e1816f08432",
+      "output_bytes": 74
+    },
+    {
+      "name": "compiled-operator-disabled-fl-history",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/operator.js",
+        "fl-history",
+        "/unread-input",
+        "/unread-output"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "8e600db10b76fe2b8a17bdce338f6119729417e6500e874d4dc91e1816f08432",
+      "output_bytes": 74
+    },
+    {
+      "name": "compiled-operator-disabled-fl-watch",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/operator.js",
+        "fl-watch",
+        "/unread-input",
+        "/unread-output"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "8e600db10b76fe2b8a17bdce338f6119729417e6500e874d4dc91e1816f08432",
+      "output_bytes": 74
+    },
+    {
+      "name": "compiled-library-disabled",
+      "command": [
+        "node",
+        "--input-type=module",
+        "-e",
+        "import {discoverBusiness} from \"./dist/tiny-verify/src/index.js\";try{await discoverBusiness({name:\"Example Company\",jurisdiction:\"GB\",record_type:\"company_registration\"});throw Error(\"unexpected enabled provider\");}catch(e){if(e.code!==\"LIVE_DISABLED\")throw e;}console.log(JSON.stringify({provider_requests:0,status:\"LIVE_DISABLED\"}));"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "output_sha256": "2607b0e5f162f3c960a27f433e93f98fb59fdd43c3fef13c32f7f9c0494ba0da",
+      "output_bytes": 49
+    },
+    {
+      "name": "compiled-legacy-proof-disabled",
+      "command": [
+        "node",
+        "dist/tiny-verify/src/live-proof.js",
+        "--output",
+        "<isolated-copy>/must-not-be-created"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "output_sha256": "73af3eb9a90fee0f1c21f0e9e030b2ffe6fed8afd47c8319963c2e7a7a995cd4",
+      "output_bytes": 102
+    }
+  ],
+  "provider_operations": 0,
+  "real_credentials_or_private_grants_read": false,
+  "message": "Inspect the disposable-copy diagnostic output; no later gate is claimed."
+}

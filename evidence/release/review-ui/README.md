@@ -1,0 +1,13 @@
+# A readable saved TinyVerify review
+
+Download [review.html](../review.html) and open it locally. It is self-contained and needs no server, account, external font or provider request. It presents the reviewed Florida corporate record and paused Monitor as **saved observations from 15 November 2026**, with functional Licence, Published history, Monitor and Sources sections. It is not a hosted or live webapp.
+
+The interface uses Arial for reading and a system monospace for identifiers, calm ink/neutral surfaces, visible keyboard focus and at least 44px primary interactive targets. The long corporate name remains complete. Source links open only on an explicit click. Original dates, native Current,Active status and 2028 expiry stay separate from seven historical closed rows, four explicit action descriptions, three blank/unknown descriptions and the 1901 incident placeholder.
+
+The Monitor is explicitly paused after two observations. Its unchanged result is a client comparison, while both provider outcomes remain unknown. The review claims no delivered alert, no complaint-history recheck, no continuous watching and no legal clearance. The original Agent-selected complaint text and later independent ordinary-source corroboration retain distinct origins and dates.
+
+The JSON button downloads the exact reviewed input, including its final newline: **10,144 bytes**, SHA-256 `3a8fe711df3b18112e4cca4a1e0c187d115c10a231b40eb944ee19819ea7d6be`. The History CSV downloads all seven published rows with literal and normalized dates, unknown/placeholder quality, native status, source URLs and observed times. Its dataset is the published history, not the entire heterogeneous JSON document.
+
+[Actual browser checks](browser-checks.json) passed **60/60** at 1440 × 1000 and 390 × 844, covering both viewports, all tabs, keyboard navigation, reduced motion, truthful source/Monitor states, responsive overflow and byte-exact JSON/CSV downloads. [A separate direct-file check](direct-file-and-captures.json) opened the actual HTML without a server and successfully exercised the Monitor tab and exact JSON download. No external request, key/private read or provider operation occurred. All disposable browsers and temporary local servers closed.
+
+Inspect the [desktop review](desktop-review.png) and [mobile history](mobile-history.png). [The verification receipt](verification.json) binds the final HTML and input hashes. Tiny129's 47 runtime files and Property's 66 frozen files remained unchanged; this new release artifact modifies no runtime, backend, control or curated record. No publication or bounty submission was performed.

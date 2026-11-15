@@ -1,0 +1,150 @@
+{
+  "registry": "florida_dbpr",
+  "jurisdiction": "US-FL",
+  "record_type": "real_estate_corporation",
+  "licence_number": "CQ247822",
+  "legal_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+  "dba_name": "COLDWELL BANKER REALTY",
+  "licence_type": "Real Estate Corporation",
+  "native_status": "Current,Active",
+  "status": "active",
+  "expiry_date": "2028-03-31",
+  "expiry_literal": "03/31/2028",
+  "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=B1B7828012AA269780F1999CA2AC6DF5",
+  "checked_at": "2026-11-15T13:43:39.646Z",
+  "complaint_listing": {
+    "source_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/ViewComplaint",
+    "detail_url": "https://www.myfloridalicense.com/portalsearches/VerifyLicensee/LicenseDetail?ID=B1B7828012AA269780F1999CA2AC6DF5",
+    "licence_number": "CQ247822",
+    "legal_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+    "response_name": "COLDWELL BANKER RESIDENTIAL REAL ESTATE LLC",
+    "coverage": "published_public_listing_non_exhaustive",
+    "outcome": "observed",
+    "rows": [
+      {
+        "case_number": "9881131",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/13/1998",
+        "disposition_date": "1998-08-13",
+        "discipline_description": "08/13/1998 - Sanctions",
+        "action": "sanctions",
+        "action_date": "1998-08-13"
+      },
+      {
+        "case_number": "9683858",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "01/13/1998",
+        "disposition_date": "1998-01-13",
+        "discipline_description": "01/13/1998 - Fine",
+        "action": "fine",
+        "action_date": "1998-01-13"
+      },
+      {
+        "case_number": "9483796",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "06/11/1995",
+        "disposition_date": "1995-06-11",
+        "discipline_description": "06/11/1995 - Fine",
+        "action": "fine",
+        "action_date": "1995-06-11"
+      },
+      {
+        "case_number": "9383725",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/16/1993",
+        "disposition_date": "1993-08-16",
+        "discipline_description": "",
+        "action": "unknown",
+        "action_date": null
+      },
+      {
+        "case_number": "9283754",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "02/05/1993",
+        "disposition_date": "1993-02-05",
+        "discipline_description": "",
+        "action": "unknown",
+        "action_date": null
+      },
+      {
+        "case_number": "9281898",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "09/15/1992",
+        "disposition_date": "1992-09-15",
+        "discipline_description": "",
+        "action": "unknown",
+        "action_date": null
+      },
+      {
+        "case_number": "9180937",
+        "case_class": null,
+        "incident_date_literal": "01/01/1901",
+        "incident_date": null,
+        "incident_date_quality": "placeholder_unknown",
+        "status": "Closed",
+        "disposition": "Final Order",
+        "disposition_date_literal": "08/23/1991",
+        "disposition_date": "1991-08-23",
+        "discipline_description": "08/23/1991 - Fine",
+        "action": "fine",
+        "action_date": "1991-08-23"
+      }
+    ]
+  },
+  "disciplinary_actions": [
+    {
+      "case_number": "9881131",
+      "action": "sanctions",
+      "action_date": "1998-08-13",
+      "description": "08/13/1998 - Sanctions"
+    },
+    {
+      "case_number": "9683858",
+      "action": "fine",
+      "action_date": "1998-01-13",
+      "description": "01/13/1998 - Fine"
+    },
+    {
+      "case_number": "9483796",
+      "action": "fine",
+      "action_date": "1995-06-11",
+      "description": "06/11/1995 - Fine"
+    },
+    {
+      "case_number": "9180937",
+      "action": "fine",
+      "action_date": "1991-08-23",
+      "description": "08/23/1991 - Fine"
+    }
+  ]
+}

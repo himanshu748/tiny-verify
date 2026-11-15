@@ -1,0 +1,189 @@
+{
+  "kind": "EDITED_ACTUAL_LOCAL_BROWSER_FRAMES_WITH_SEPARATE_CAPTION_OVERLAY",
+  "duration_seconds": 74,
+  "fps": 60,
+  "output_size": [
+    1920,
+    1080
+  ],
+  "capture_viewport": [
+    1440,
+    810
+  ],
+  "browser_fallback": "User-approved disposable local Chrome; in-app browser automation unavailable",
+  "native_screen_recorder_or_desktop_capture_used": false,
+  "caption_band_is_editorial_not_app_ui": true,
+  "renderer_sha256": "f791472f135513eb4094661ba1be8ee800820220fe20764eaa3f486e8f203550",
+  "cursor_asset_sha256": "8f3d214dd5376b9451630722b86741f58e9174e87e3ca39f628a5783cbad6ee7",
+  "source_html_sha256": "410611c7ac258bc1e473aec77eb58d3c5b3828510c62b14a368060b7f4cc6a5a",
+  "original_frames_preserved": true,
+  "scenes": [
+    [
+      0,
+      "01-summary",
+      "fade"
+    ],
+    [
+      7,
+      "02-licence",
+      "scroll"
+    ],
+    [
+      13,
+      "03-history-summary",
+      "fade"
+    ],
+    [
+      19,
+      "04-history-rows",
+      "scroll"
+    ],
+    [
+      25,
+      "05-unknown-action",
+      "scroll"
+    ],
+    [
+      31,
+      "06-history-tabs",
+      "scroll"
+    ],
+    [
+      33,
+      "07-monitor-paused",
+      "fade"
+    ],
+    [
+      40,
+      "08-monitor-details",
+      "scroll"
+    ],
+    [
+      46,
+      "09-monitor-tabs",
+      "scroll"
+    ],
+    [
+      48,
+      "10-source-methods",
+      "fade"
+    ],
+    [
+      54,
+      "11-source-notes",
+      "scroll"
+    ],
+    [
+      58,
+      "12-export-ready",
+      "scroll"
+    ],
+    [
+      60.7,
+      "13-json-downloaded",
+      "fade"
+    ],
+    [
+      66,
+      "14-csv-downloaded",
+      "fade"
+    ],
+    [
+      70,
+      "15-end",
+      "fade"
+    ]
+  ],
+  "captions": [
+    [
+      0,
+      7,
+      "Verified observations, saved on 15 Nov 2026.",
+      "This walkthrough runs no fresh checks."
+    ],
+    [
+      7,
+      13,
+      "The native licence status and expiry stay as observed.",
+      "Historical actions do not overwrite them."
+    ],
+    [
+      13,
+      19,
+      "Agent follows the licence's native public complaint form.",
+      "This listing is not a complete complaint history."
+    ],
+    [
+      19,
+      25,
+      "Seven published closed rows. Four explicit Fine or Sanctions entries.",
+      "Closed or Final Order alone does not establish discipline."
+    ],
+    [
+      25,
+      33,
+      "A 1901 placeholder is not an incident date.",
+      "Blank action fields remain Unknown."
+    ],
+    [
+      33,
+      40,
+      "Two saved licence observations. Monitor paused, confirmed.",
+      "The client comparison is unchanged."
+    ],
+    [
+      40,
+      48,
+      "Provider outcomes remain Unknown.",
+      "No alert delivery or complaint-history recheck is claimed."
+    ],
+    [
+      48,
+      58,
+      "Fetch reads selected licence fields. Monitor checks status and expiry.",
+      "Complaint text is a separate Agent-reported observation."
+    ],
+    [
+      58,
+      66,
+      "Download the complete reviewed JSON.",
+      "Its sources, history and paused Monitor stay together."
+    ],
+    [
+      66,
+      74,
+      "Or keep all seven published rows as CSV.",
+      "Saved evidence, with its limits intact."
+    ]
+  ],
+  "cursor_clicks_match_actual_capture_points": {
+    "licence": [
+      350.0,
+      861.0
+    ],
+    "history": [
+      756.6666666666666,
+      95.66666666666667
+    ],
+    "monitor": [
+      1163.3333333333333,
+      95.66666666666667
+    ],
+    "sources": [
+      1570.0,
+      95.66666666666667
+    ],
+    "json": [
+      1466.0625,
+      522.2916666666666
+    ],
+    "csv": [
+      1672.2395833333333,
+      522.2916666666666
+    ]
+  },
+  "provider_calls": 0,
+  "narration_or_tts_provider_used": false,
+  "no_extra_expenditure": true,
+  "bundled_renderer": "browser-video-recording/scripts/render_browser_demo.py"
+}

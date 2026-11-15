@@ -1,0 +1,9 @@
+node_modules/
+dist/
+outputs/
+private-output/
+.env
+.env.*
+*.env
+*.local.json
+.DS_Store

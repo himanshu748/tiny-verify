@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-11-15T13:54:41.501427+00:00",
+  "kind": "INDEPENDENT_ORDINARY_PUBLIC_SOURCE_CORROBORATION_NOT_TINYFISH_OR_COMPLETE_HISTORY",
+  "passed": true,
+  "checks": 20,
+  "pass": 20,
+  "visible_published_rows": 7,
+  "explicit_fine_sanction_actions": 4,
+  "observed_at": "2026-11-15T13:52:58.605Z",
+  "detail_and_listing_same_corporate_identity": true,
+  "source_documents": [
+    {
+      "method": "GET",
+      "path": "/portalsearches/VerifyLicensee/LicenseDetail",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/portalsearches/VerifyLicensee/ViewComplaint",
+      "status": 200
+    }
+  ],
+  "ordinary_source_receipt_sha256": "8ad1a0b46739e81c1afe8b7ab3cffe99c5f9c73406f0c089b2e989a5f7dee272",
+  "expected_public_record_sha256": "a88a4883a8bfe8eeeb9a55175035b4f724aea132b3c550627eee42d4c0f94002",
+  "provider_calls": 0,
+  "private_data_or_credentials_read": false,
+  "screenshots_full_html_headers_or_trace_retained": false,
+  "browser_closed": true,
+  "no_completeness_or_clearance_claim": true
+}
