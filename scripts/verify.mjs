@@ -30,7 +30,7 @@ const currentSource = JSON.parse(
 );
 if (
   currentSource.version !== 1 ||
-  currentSource.expected_tests !== 129 ||
+  currentSource.expected_tests !== 132 ||
   !/^evidence\/[a-z0-9][a-z0-9-]{2,79}\/source-manifest\.json$/.test(
     currentSource.source_manifest,
   )
@@ -51,6 +51,27 @@ if (
   ) !== sourceManifest.source_tree_sha256
 )
   throw Error("Current source manifest identity is inconsistent.");
+const liveManifestPath = currentSource.live_evidence_source_manifest;
+if (
+  !/^evidence\/[a-z0-9][a-z0-9-]{2,79}\/source-manifest\.json$/.test(
+    liveManifestPath,
+  )
+)
+  throw Error("The historical live-source pointer is invalid.");
+const liveSourceManifest = JSON.parse(
+  await readFile(join(root, liveManifestPath), "utf8"),
+);
+if (
+  liveSourceManifest.source_tree_sha256 !==
+    currentSource.live_evidence_source_tree_sha256 ||
+  liveSourceManifest.files.length !== 47 ||
+  hash(
+    liveSourceManifest.files
+      .map((file) => file.path + " " + file.sha256)
+      .join("\n"),
+  ) !== liveSourceManifest.source_tree_sha256
+)
+  throw Error("Historical live-source identity is inconsistent.");
 const inventory = [];
 async function copy(relative) {
   const source = resolve(root, relative);
@@ -113,7 +134,7 @@ const liveSummary = JSON.parse(
   ),
 );
 if (
-  reviewed.source_runtime_sha256 !== sourceManifest.source_tree_sha256 ||
+  reviewed.source_runtime_sha256 !== liveSourceManifest.source_tree_sha256 ||
   reviewed.record.licence_number !== "CQ247822" ||
   reviewed.record.complaint_listing.rows.length !== 7 ||
   reviewed.record.disciplinary_actions.length !== 4 ||
@@ -123,7 +144,7 @@ if (
   reviewed.monitor.provider_metadata.baseline.provider_outcome !== "unknown" ||
   reviewed.monitor.provider_metadata.followup.provider_outcome !== "unknown" ||
   reviewed.fresh_recheck_performed_on_open !== false ||
-  liveSummary.source_runtime_sha256 !== sourceManifest.source_tree_sha256 ||
+  liveSummary.source_runtime_sha256 !== liveSourceManifest.source_tree_sha256 ||
   liveSummary.successful_operations.discovery_agent !== 1 ||
   liveSummary.successful_operations.detail_fetch !== 1 ||
   liveSummary.successful_operations.complaint_agent !== 1 ||
@@ -205,7 +226,7 @@ try {
   const pass = Number(/(?:#|ℹ) pass (\d+)/.exec(tests)?.[1]);
   if (count !== currentSource.expected_tests || pass !== count)
     throw Error(
-      "The declared native-result navigation goal repair test suite changed.",
+      "The declared native-status comparison repair test suite changed.",
     );
   await run("typecheck", "npm", ["run", "typecheck"]);
   await run("build", "npm", ["run", "build"]);
@@ -332,6 +353,11 @@ try {
     checks,
     source_tree_sha256: sourceManifest.source_tree_sha256,
     source_manifest: manifestPath,
+    live_evidence_source_manifest: liveManifestPath,
+    live_evidence_source_tree_sha256: liveSourceManifest.source_tree_sha256,
+    current_source_differs_from_live_evidence:
+      sourceManifest.source_tree_sha256 !==
+      liveSourceManifest.source_tree_sha256,
     source_pointer: pointerPath,
     frozen_source: currentSource.frozen_source,
     source_bytes_match_current_manifest: true,
@@ -349,7 +375,7 @@ try {
     historical_evidence:
       "Two unchanged genuine 8 November UK/AU observations replayed. A separate labelled 13 November eight-Fetch summary remains historical. No source status or provider account rechecked.",
     florida_evidence:
-      "Saved 15 November source129 discovery, detail Fetch, complaint Agent and paused two-observation Monitor evidence included. This local candidate gate performs no provider work. Ordinary Chrome source QA and saved-review UI/video checks are separate existing receipts, not fresh live checks.",
+      "Saved 15 November source129 discovery, detail Fetch, complaint Agent and paused two-observation Monitor evidence retains its original source hash. The 16 November native-status comparison repair is verified offline on its separate current source hash. This gate performs no provider work. Source QA, saved-review UI and video checks are existing dated receipts, not fresh live checks.",
     empty_history_result:
       "unknown with null actions; zero visible rows never means clean history",
     hosting_publication_or_submission: false,

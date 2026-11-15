@@ -412,7 +412,15 @@ test("only bounded public fields survive; session/raw input and unrelated privat
   );
 });
 test("GET monitoring compares licence status/expiry without claiming complaint history was rechecked", () => {
-  const before = flRecord(),
+  const base = flRecord(),
+    history = parseFloridaComplaints(
+      base.detail_observation,
+      "999001",
+      base.legal_name,
+      notice,
+      complaintHtml(),
+    ),
+    before = attachFloridaComplaints(base, history, flReceipt(history)),
     d = parseFloridaDetail(flHtml({ expiry: "03/31/2029" }), FL_URL),
     after = resolveFloridaDetail(
       flSelection(),
@@ -421,7 +429,9 @@ test("GET monitoring compares licence status/expiry without claiming complaint h
     );
   const diff = compareFloridaLicence(before, after);
   assert.equal(diff.kind, "licence_fields_changed");
-  assert.equal(diff.changes[0]?.field, "expiry_date");
+  assert.deepEqual(diff.changes, [
+    { field: "expiry_date", before: "2028-03-31", after: "2029-03-31" },
+  ]);
   assert.equal(diff.complaint_history_rechecked, false);
   assert.throws(() => compareFloridaLicence(after, before));
   const unknown = parseFloridaDetail(
@@ -433,6 +443,60 @@ test("GET monitoring compares licence status/expiry without claiming complaint h
     "unknown",
   );
 });
+
+// These status literals are synthetic illustrations, not verified regulator vocabulary.
+for (const { name, nativeStatuses, normalizedStatuses, changes } of [
+  {
+    name: "different unknown native status literals remain visible in an unresolved comparison",
+    nativeStatuses: ["Suspended", "Expired"],
+    normalizedStatuses: ["unknown", "unknown"],
+    changes: [
+      { field: "native_status", before: "Suspended", after: "Expired" },
+    ],
+  },
+  {
+    name: "identical unknown native status literals remain unresolved without a false change",
+    nativeStatuses: ["Suspended", "Suspended"],
+    normalizedStatuses: ["unknown", "unknown"],
+    changes: [],
+  },
+  {
+    name: "an active to unknown comparison retains both native and normalized status changes",
+    nativeStatuses: ["Current,Active", "Suspended"],
+    normalizedStatuses: ["active", "unknown"],
+    changes: [
+      { field: "status", before: "active", after: "unknown" },
+      {
+        field: "native_status",
+        before: "Current,Active",
+        after: "Suspended",
+      },
+    ],
+  },
+]) {
+  test(name, () => {
+    const records = nativeStatuses.map((status, index) => {
+      const detail = parseFloridaDetail(flHtml({ status }), FL_URL);
+      return resolveFloridaDetail(
+        flSelection(),
+        detail,
+        flReceipt(detail, "synthetic", "fixture", NOW + index * 1000),
+      );
+    });
+    assert.deepEqual(
+      records.map((record) => record.status),
+      normalizedStatuses,
+    );
+    assert.deepEqual(
+      records.map((record) => record.native_status),
+      nativeStatuses,
+    );
+    const diff = compareFloridaLicence(records[0], records[1]);
+    assert.equal(diff.kind, "status_unresolved");
+    assert.deepEqual(diff.changes, changes);
+    assert.equal(diff.complaint_history_rechecked, false);
+  });
+}
 
 test("blank public case classes remain unknown and typed action/date tampering is rejected", () => {
   const r = flRecord(),

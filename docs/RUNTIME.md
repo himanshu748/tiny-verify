@@ -18,7 +18,7 @@ node dist/tiny-verify/src/cli.js plan examples/request-au.json
 npm run verify
 ```
 
-`demo` and `demo:florida` use synthetic fixtures. The fictional cancellation and example complaint rows are not observed registry events. `replay` reads two genuine saved UK/AU observations from 8 November and writes reports into a new directory; it does not contact either registry. Use a new output path each time. `verify` makes a clean temporary copy, installs pinned dependencies, runs 129 tests and the local checks, then writes a dated public-safe receipt under `evidence/`. npm installation contacts the package registry; the application checks use a fetch guard and live flags set to `0`.
+`demo` and `demo:florida` use synthetic fixtures. The fictional cancellation and example complaint rows are not observed registry events. `replay` reads two genuine saved UK/AU observations from 8 November and writes reports into a new directory; it does not contact either registry. Use a new output path each time. `verify` makes a clean temporary copy, installs pinned dependencies, runs 132 tests and the local checks, then writes a dated public-safe receipt under `evidence/`. npm installation contacts the package registry; the application checks use a fetch guard and live flags set to `0`.
 
 ## Supported workflows
 
@@ -59,5 +59,7 @@ The private ledger retains reservations after success, failure and uncertainty. 
 Original source HTML and Agent selected-text captures are private review material. They can contain incidental public addresses or associated people and do not belong in this package. The public example includes selected corporate fields, public published rows, source URLs and observation times only. Live private output uses new owner-only directories and must be reviewed before any export is made public.
 
 Complaint text is Agent-reported selected text, separately corroborated in ordinary signed-out Chrome. That corroboration is not a new TinyFish Browser transport claim. The listing is non-exhaustive; an empty table, blank action field, closed case or Final Order does not establish clean history. Placeholder incident dates stay unknown. Client Monitor comparison and provider-reported outcome metadata remain separate.
+
+The Florida comparison includes the source's literal `native_status` alongside normalized status and expiry. Two different literals remain visible in `changes` even when both normalize to `unknown`. In that case `kind` stays `status_unresolved`: the source wording changed, but its regulatory meaning still needs review. Consumers must inspect `changes` as well as `kind`; an unresolved comparison can contain an observed change. Consumers that enumerate `changes.field` must accept the additive `native_status` field. The regression labels are synthetic illustrations, not newly observed regulator vocabulary.
 
 See [verification](VERIFICATION.md) for exactly what was observed and [sources](SOURCES.md) for the source and contract references.

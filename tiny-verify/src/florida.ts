@@ -816,6 +816,7 @@ export function compareFloridaLicence(
     );
   const fields = [
     "status",
+    "native_status",
     "expiry_date",
     "legal_name",
     "licence_type",

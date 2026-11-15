@@ -56,6 +56,6 @@ npm run format:check
 npm run verify
 ```
 
-The source passes 129 tests and a fresh standalone verification gate. Read [verification and limits](docs/VERIFICATION.md) and [live controls](docs/RUNTIME.md). This is a local tool and saved judge package; no hosted service, legal clearance or organizer approval is claimed.
+The current source passes 132 tests, including literal status-change regressions, and a fresh standalone verification gate. The 15 November live evidence retains its original source identity; the later comparison repair was verified offline. Read [verification and limits](docs/VERIFICATION.md) and [live controls](docs/RUNTIME.md). This is a local tool and saved judge package; no hosted service, legal clearance or organizer approval is claimed.
 
 There is no repository licence file in this candidate. Public availability does not grant an open-source licence; dependency licence notices remain with their packages. See [sources and originality](docs/SOURCES.md).

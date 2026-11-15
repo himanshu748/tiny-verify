@@ -1,11 +1,13 @@
 {
   "version": 1,
-  "source_manifest": "evidence/result-navigation-diagnosis-2026-11-15/source-manifest.json",
-  "expected_tests": 129,
-  "current_source_tree_sha256": "7fcec0bcdbb0fc3a3bffbd37821fc432b83544386cd878f377074a44b794adc9",
-  "frozen_source": "47 unchanged runtime and test files; native same-row Florida company-name navigation with strict typed outputs.",
-  "release_metadata_only": true,
-  "original_pointer_sha256": "c28e1cd6bc54c0a3617de82e9d398022c188871bffd9aca5879dbe7cde978c20",
-  "metadata_note": "Release pointer curated from the frozen source identity. Historical pointers remain in the original workspace; live evidence is documented separately.",
+  "source_manifest": "evidence/native-status-diff-2026-11-16/source-manifest.json",
+  "expected_tests": 132,
+  "current_source_tree_sha256": "358b242663730f0bebaf5b36df28b52622c675d5ada6c440896e6777b611010d",
+  "frozen_source": "47 current runtime/test files; native_status literal changes retained without broadening regulatory normalization.",
+  "live_evidence_source_manifest": "evidence/result-navigation-diagnosis-2026-11-15/source-manifest.json",
+  "live_evidence_source_tree_sha256": "7fcec0bcdbb0fc3a3bffbd37821fc432b83544386cd878f377074a44b794adc9",
+  "previous_source_pointer": "evidence/native-status-diff-2026-11-16/previous-current-source.json",
+  "release_metadata_only": false,
+  "metadata_note": "Current comparison repair is offline-verified. All 15 November live observations, source QA and saved media retain their original source129 hash; no fresh provider run is claimed.",
   "new_paid_authority": false
 }

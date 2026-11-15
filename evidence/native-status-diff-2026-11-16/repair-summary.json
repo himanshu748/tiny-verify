@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-11-15T19:11:12.903724+00:00",
+  "kind": "DETERMINISTIC_NATIVE_STATUS_COMPARISON_REPAIR",
+  "status": "OFFLINE_PATCH_VERIFIED_BEFORE_FRESH_PACKAGE_GATE",
+  "problem": "Distinct native status literals that both normalize unknown were omitted from the machine-readable changes list.",
+  "repair": "Compare native_status as a separate literal field. Keep status unknown and kind status_unresolved when regulatory interpretation is unresolved.",
+  "synthetic_cases": [
+    "different unknown native literals",
+    "identical unknown native literal",
+    "active to unknown native literal",
+    "expiry-only change with complaint history excluded"
+  ],
+  "test_literals_are_not_observed_regulator_vocabulary": true,
+  "source_tree_sha256": "358b242663730f0bebaf5b36df28b52622c675d5ada6c440896e6777b611010d",
+  "historical_live_source_tree_sha256": "7fcec0bcdbb0fc3a3bffbd37821fc432b83544386cd878f377074a44b794adc9",
+  "changed_frozen_graph_files": [
+    "tiny-verify/src/florida.ts",
+    "tiny-verify/test/florida.test.ts"
+  ],
+  "existing_dependency_disposable_copy_checks": {
+    "florida_tests_passed": 30,
+    "full_tests_passed": 132,
+    "typecheck": true,
+    "build": true,
+    "focused_formatting": true,
+    "diff_check": true,
+    "fresh_dependency_install": false
+  },
+  "external_fetch_attempts": 0,
+  "provider_operations": 0,
+  "live_evidence_or_media_modified": false,
+  "new_live_execution_claimed": false,
+  "compatibility_note": "Consumers restricting changes.field to an enumerated set must accept the additive native_status field.",
+  "final_judge_checks": "Run npm run verify for a fresh isolated package gate; dated gate receipts are generated separately."
+}
